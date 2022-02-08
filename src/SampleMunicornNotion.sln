@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMunicornNotion.WebApi", "SampleMunicornNotion.WebApi\SampleMunicornNotion.WebApi.csproj", "{4494CD62-5B58-41C6-A75F-C7667955ACBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMunicornNotion.Models", "SampleMunicornNotion.Models\SampleMunicornNotion.Models.csproj", "{FBE66DA2-AE5E-4099-89A0-9A2AE79FD120}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMunicornNotion.DAL", "SampleMunicornNotion.DAL\SampleMunicornNotion.DAL.csproj", "{78B89C16-CD1D-42C8-ACA5-6D42D0FEB232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMunicornNotion.BL", "SampleMunicornNotion.BL\SampleMunicornNotion.BL.csproj", "{53F64FDD-58F5-4D5A-AE98-8027D06AB3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMunicornNotion.BL.Tests", "SampleMunicornNotion.BL.Tests\SampleMunicornNotion.BL.Tests.csproj", "{C60F2281-40B1-4B57-8DA1-944D90A65199}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D03355E-D999-4648-80C7-7606D4025AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4494CD62-5B58-41C6-A75F-C7667955ACBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4494CD62-5B58-41C6-A75F-C7667955ACBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4494CD62-5B58-41C6-A75F-C7667955ACBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4494CD62-5B58-41C6-A75F-C7667955ACBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE66DA2-AE5E-4099-89A0-9A2AE79FD120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE66DA2-AE5E-4099-89A0-9A2AE79FD120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE66DA2-AE5E-4099-89A0-9A2AE79FD120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE66DA2-AE5E-4099-89A0-9A2AE79FD120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B89C16-CD1D-42C8-ACA5-6D42D0FEB232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B89C16-CD1D-42C8-ACA5-6D42D0FEB232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B89C16-CD1D-42C8-ACA5-6D42D0FEB232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B89C16-CD1D-42C8-ACA5-6D42D0FEB232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F64FDD-58F5-4D5A-AE98-8027D06AB3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F64FDD-58F5-4D5A-AE98-8027D06AB3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F64FDD-58F5-4D5A-AE98-8027D06AB3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F64FDD-58F5-4D5A-AE98-8027D06AB3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60F2281-40B1-4B57-8DA1-944D90A65199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60F2281-40B1-4B57-8DA1-944D90A65199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60F2281-40B1-4B57-8DA1-944D90A65199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60F2281-40B1-4B57-8DA1-944D90A65199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D03355E-D999-4648-80C7-7606D4025AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D03355E-D999-4648-80C7-7606D4025AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D03355E-D999-4648-80C7-7606D4025AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D03355E-D999-4648-80C7-7606D4025AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FE0B720-5C1A-4F8D-BE15-DE1C236BBAAF}
+	EndGlobalSection
+EndGlobal

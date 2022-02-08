@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  samplemunicornnotion.webapi:
+    ports:
+      - "5577:5577"
+    build:
+      context: .
+      dockerfile: SampleMunicornNotion.WebApi/Dockerfile
+
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    restart: always
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+      - ./postgres-migrations:/docker-entrypoint-initdb.d/
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: postgres@sample.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    volumes:
+      - ./pgadmin-data:/var/lib/pgadmin
+    ports:
+      - "8999:80"
+    #logging:
+    #  driver: none
+    restart: unless-stopped
