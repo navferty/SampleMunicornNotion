@@ -2,8 +2,8 @@ name: .NET
 
 defaults:
   run:
-    shell: bash
-    working-directory: scripts
+#     shell: bash
+    working-directory: ./src
 
 on:
   push:
